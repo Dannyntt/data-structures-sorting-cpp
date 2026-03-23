@@ -15,6 +15,8 @@ Este proyecto forma parte de la **Práctica I** del curso *ST0245 – Estructura
 
 El objetivo es comparar el rendimiento real de tres algoritmos de ordenamiento implementados sobre diferentes estructuras de datos, analizando tiempo de ejecución, uso de memoria y complejidad algorítmica.
 
+Se utilizo ayuda de la IA con fines esticos del codigo y del readme.
+
 ---
 
 ## ⚙️ Algoritmos Implementados
