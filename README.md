@@ -5,7 +5,7 @@
 ![Universidad](https://img.shields.io/badge/universidad-EAFIT-003087?style=flat)
 ![Materia](https://img.shields.io/badge/materia-Estructuras%20de%20Datos%20y%20Algoritmos-orange?style=flat)
 
-> Implementación y análisis comparativo de tres estrategias de ordenamiento sobre un dataset de **100,000 palabras** en inglés, desarrollado en C++ desde cero.
+> Implementación y análisis comparativo de tres estrategias de ordenamiento sobre un dataset de **100,000 palabras** en inglés, desarrollado en C++.
 
 ---
 
