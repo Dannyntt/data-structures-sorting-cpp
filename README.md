@@ -124,7 +124,3 @@ g++ -O2 -std=c++17 -o sorter main.cpp
 | Período      | Febrero 2026                                 |
 
 ---
-
-## 📄 Licencia
-
-Este proyecto es de uso académico. Desarrollado como parte de los requisitos del curso ST0245 en la Universidad EAFIT.
