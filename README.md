@@ -111,15 +111,6 @@ g++ -O2 -std=c++17 -o sorter main.cpp
 # Ejecutar con un dataset personalizado
 ./sorter mi_dataset.txt
 ```
-
----
-
-## 📋 Dataset
-
-El dataset fue generado a partir del archivo `words_alpha.txt` (lista de palabras en inglés), del cual se seleccionaron **100,000 palabras de forma aleatoria** y se almacenaron en `dataset.txt`.
-
-El archivo original estaba ordenado alfabéticamente; la aleatorización se realizó antes de aplicar cualquier algoritmo de ordenamiento, garantizando que ningún algoritmo reciba ventaja por el estado inicial de los datos.
-
 ---
 
 ## 📚 Materia y Universidad
