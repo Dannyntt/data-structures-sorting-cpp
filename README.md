@@ -120,7 +120,6 @@ g++ -O2 -std=c++17 -o sorter main.cpp
 | Curso        | ST0245 – Estructuras de Datos y Algoritmos   |
 | Facultad     | Escuela de Ciencias Aplicadas e Ingeniería   |
 | Universidad  | Universidad EAFIT, Medellín, Colombia        |
-| Docente      | Alexander Narváez Berrío                     |
-| Período      | Febrero 2026                                 |
+| Docente      | Carlos Alberto Alvarez Henao                 |
+| Estudiante   | Daniela Giraldo Salas                        |
 
----
