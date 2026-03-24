@@ -102,16 +102,15 @@ Para un ordenamiento único de un dataset estático, **QuickSort** es la mejor o
 ## 🚀 Compilación y Ejecución
 
 **Requisitos:** compilador con soporte C++17 (`g++` o `clang++`)
-
 ```bash
-# Compilar
+# Opción 1 — con Makefile (recomendado)
+make        # compila
+make run    # compila y ejecuta
+make clean  # elimina el binario
+
+# Opción 2 — manual
 g++ -O2 -std=c++17 -o sorter main.cpp
-
-# Ejecutar con el dataset por defecto (dataset.txt)
 ./sorter
-
-# Ejecutar con un dataset personalizado
-./sorter mi_dataset.txt
 ```
 ---
 
