@@ -1,0 +1,33 @@
+╔══════════════════════════════════════════════════════╗
+║   ST0245 – Practice I: Sorting Large Dataset (C++)   ║
+╚══════════════════════════════════════════════════════╝
+
+Loading dataset from: dataset.txt ...
+Words loaded: 100000
+
+Algorithm           Time (ms)       Memory (KB)         Sorted?
+------------------------------------------------------------------
+QuickSort           32.33           4595                YES
+HeapSort            63.69           4595                YES
+AVL Tree            68.94           6488                YES
+
+╔══════════════════════════════════════════════════════╗
+║               COMPARATIVE ANALYSIS                  ║
+╠══════════════════════════════════════════════════════╣
+║ Algorithm │ Best    │ Avg      │ Worst    │ Space    ║
+╠═══════════╪═════════╪══════════╪══════════╪══════════╣
+║ QuickSort │ O(nlogn)│ O(nlogn) │ O(n²)    │ O(logn)  ║
+║ HeapSort  │ O(nlogn)│ O(nlogn) │ O(nlogn) │ O(1)     ║
+║ AVL Tree  │ O(nlogn)│ O(nlogn) │ O(nlogn) │ O(n)     ║
+╚═══════════╧═════════╧══════════╧══════════╧══════════╝
+
+Notes:
+  - QuickSort uses median-of-three pivot (iterative stack) to avoid
+    worst-case O(n²) on already-sorted or nearly-sorted data.
+  - HeapSort guarantees O(n log n) but has poor cache locality
+    due to non-sequential memory access patterns.
+  - AVL Tree time includes both insertion (w/ rotations) and inorder
+    traversal. Higher constant factor due to pointer overhead and
+    heap allocations per node.
+  - Memory: vector-based sorts reuse the same array in-place;
+    AVL allocates one node (~56 bytes) per unique word.
