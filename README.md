@@ -91,10 +91,10 @@ Para un ordenamiento único de un dataset estático, **QuickSort** es la mejor o
 ├── 📄 README.md          ← este archivo
 ├── 📄 main.cpp           ← código fuente completo
 ├── 📄 dataset.txt        ← 100,000 palabras aleatorias en inglés
-├── 📁 report/
-│   └── report.pdf        ← informe escrito de la práctica
-└── 📁 results/
-    └── benchmark.txt     ← salida real del programa
+├── 📄 Makefile           ← compilación con make
+├── 📄 benchmark.txt      ← salida real del programa
+└── 📄 report.pdf         ← informe escrito de la práctica
+```
 ```
 
 ---
