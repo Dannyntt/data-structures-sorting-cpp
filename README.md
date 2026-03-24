@@ -87,7 +87,7 @@ Para un ordenamiento único de un dataset estático, **QuickSort** es la mejor o
 ## 🗂️ Estructura del Proyecto
 
 ```
-📁 ST0245-Practice-I/
+📁 Practice-I/
 ├── 📄 README.md          ← este archivo
 ├── 📄 main.cpp           ← código fuente completo
 ├── 📄 dataset.txt        ← 100,000 palabras aleatorias en inglés
