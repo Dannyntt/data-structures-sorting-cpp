@@ -1,33 +1,31 @@
 ╔══════════════════════════════════════════════════════╗
-║   ST0245 – Practice I: Sorting Large Dataset (C++)   ║
+║    Practica I: Sorting Large Dataset (C++)           ║
 ╚══════════════════════════════════════════════════════╝
+Cargando dataset desde: dataset.txt ...
+Palabras cargadas: 100000
 
-Loading dataset from: dataset.txt ...
-Words loaded: 100000
-
-Algorithm           Time (ms)       Memory (KB)         Sorted?
+Algoritmo           Tiempo (ms)     Memoria (KB)        Ordenado?
 ------------------------------------------------------------------
-QuickSort           32.33           4595                YES
-HeapSort            63.69           4595                YES
-AVL Tree            68.94           6488                YES
+QuickSort           32.33           4595                SI
+HeapSort            63.69           4595                SI
+Arbol AVL           68.94           6488                SI
 
 ╔══════════════════════════════════════════════════════╗
-║               COMPARATIVE ANALYSIS                  ║
+║              ANÁLISIS COMPARATIVO                    ║
 ╠══════════════════════════════════════════════════════╣
-║ Algorithm │ Best    │ Avg      │ Worst    │ Space    ║
+║ Algoritmo │ Mejor   │ Promedio │ Peor     │ Espacio  ║
 ╠═══════════╪═════════╪══════════╪══════════╪══════════╣
 ║ QuickSort │ O(nlogn)│ O(nlogn) │ O(n²)    │ O(logn)  ║
 ║ HeapSort  │ O(nlogn)│ O(nlogn) │ O(nlogn) │ O(1)     ║
-║ AVL Tree  │ O(nlogn)│ O(nlogn) │ O(nlogn) │ O(n)     ║
+║ Arbol AVL │ O(nlogn)│ O(nlogn) │ O(nlogn) │ O(n)     ║
 ╚═══════════╧═════════╧══════════╧══════════╧══════════╝
 
-Notes:
-  - QuickSort uses median-of-three pivot (iterative stack) to avoid
-    worst-case O(n²) on already-sorted or nearly-sorted data.
-  - HeapSort guarantees O(n log n) but has poor cache locality
-    due to non-sequential memory access patterns.
-  - AVL Tree time includes both insertion (w/ rotations) and inorder
-    traversal. Higher constant factor due to pointer overhead and
-    heap allocations per node.
-  - Memory: vector-based sorts reuse the same array in-place;
-    AVL allocates one node (~56 bytes) per unique word.
+Notas:
+  - QuickSort usa pivote por mediana de tres (pila iterativa) para evitar
+    el peor caso O(n²) en datos completamente ordenados.
+  - HeapSort garantiza O(n log n) pero tiene mala localidad de caché
+    debido a sus patrones de acceso no secuenciales a memoria.
+  - El tiempo del Árbol AVL incluye inserción (con rotaciones) y recorrido
+    inorden. Mayor constante por overhead de punteros y asignaciones dinámicas.
+  - QuickSort y HeapSort reutilizan el mismo vector in-place;
+    el AVL asigna un nodo (~56 bytes) por cada palabra única.
