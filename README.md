@@ -1,4 +1,4 @@
-# 📊 ST0245 — Práctica I: Sorting Large Dataset
+# 📊 Práctica I: Sorting Large Dataset
 
 ![C++](https://img.shields.io/badge/C++-17-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Status](https://img.shields.io/badge/estado-completado-brightgreen?style=flat)
