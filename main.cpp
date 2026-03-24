@@ -251,7 +251,7 @@ int main(int argc, char* argv[]) {
     if (argc > 1) datasetFile = argv[1]; // Permite pasar el archivo como argumento
 
     std::cout << "╔══════════════════════════════════════════════════════╗\n";
-    std::cout << "║   ST0245 – Práctica I: Ordenamiento de Dataset (C++) ║\n";
+    std::cout << "║          – Práctica I: Ordenamiento de Dataset (C++) ║\n";
     std::cout << "╚══════════════════════════════════════════════════════╝\n\n";
 
     // ── Carga del dataset ─────────────────────
