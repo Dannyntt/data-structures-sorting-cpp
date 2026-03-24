@@ -95,7 +95,6 @@ Para un ordenamiento único de un dataset estático, **QuickSort** es la mejor o
 ├── 📄 benchmark.txt      ← salida real del programa
 └── 📄 report.pdf         ← informe escrito de la práctica
 ```
-```
 
 ---
 
